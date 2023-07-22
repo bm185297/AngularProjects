@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+    /* margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%; */
+  }
+
+  .vdo {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+  }

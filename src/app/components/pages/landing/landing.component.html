@@ -1,0 +1,52 @@
+<div>
+    <h1 class="header" style="margin-top: 20px; margin-bottom: 20px;">Domains live on the network</h1>
+    <ul>
+      <li><a [ngClass]="{'active': active_domain === 1}" href="#home" (click)="onDomainClick(1)">Food & Beverage</a></li>
+      <li><a [ngClass]="{'active': active_domain === 2}" href="#news" (click)="onDomainClick(2)">Grocery</a></li>
+      <li><a [ngClass]="{'active': active_domain === 3}" href="#contact" (click)="onDomainClick(3)">Fashion & Footwear</a></li>
+      <li><a [ngClass]="{'active': active_domain === 4}" href="#about" (click)="onDomainClick(4)">Home & Kitchen</a></li>
+      <li><a [ngClass]="{'active': active_domain === 5}" href="#about" (click)="onDomainClick(5)">Beauty & Personal Care</a></li>
+    </ul>
+    <div >
+        <img
+          width="60%"
+          height="35%"
+          [src]="img_name"
+          [alt]=""
+          style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; margin: auto;"
+          (click)="onDomainSelClick()"
+        />
+      </div>
+    <br />
+</div>
+<!-- <div>
+  <h1 class="header">Everyone's Commerce!</h1>
+  <div class="vdo">
+    <img
+      width="90%"
+      height="650px"
+      src="assets/video-desktop1.gif"
+      [alt]=""
+      style="border: 1px solid gainsboro; border-radius: 20px;"
+    />
+  </div>
+  <br />
+</div> -->
+<div >
+  <img
+    width="60%"
+    height="35%"
+    src="assets/howtojoin.png"
+    [alt]=""
+    style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; margin: auto;"
+  />
+</div>
+<div >
+  <img
+    width="80%"
+    height="35%"
+    src="assets/stepstojoin.png"
+    [alt]=""
+    style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; margin: auto;"
+  />
+</div>

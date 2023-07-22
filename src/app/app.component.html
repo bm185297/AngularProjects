@@ -1,0 +1,11 @@
+<app-header></app-header>
+<div>
+    <ul>
+        <li><a [ngClass]="{'active': active_domain === 1}"  (click)="onDomainSelClick(1)">Food & Beverage</a></li>
+        <li><a [ngClass]="{'active': active_domain === 2}"  (click)="onDomainSelClick(2)">Grocery</a></li>
+        <li><a [ngClass]="{'active': active_domain === 3}" (click)="onDomainSelClick(3)">Fashion & Footwear</a></li>
+        <li><a [ngClass]="{'active': active_domain === 4}"  (click)="onDomainSelClick(4)">Home & Kitchen</a></li>
+        <li><a [ngClass]="{'active': active_domain === 5}"  (click)="onDomainSelClick(5)">Beauty & Personal Care</a></li>
+      </ul>
+</div>
+<router-outlet></router-outlet>

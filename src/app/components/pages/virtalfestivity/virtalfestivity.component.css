@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+  }
+
+  .vdo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+  }

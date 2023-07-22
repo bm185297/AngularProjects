@@ -1,0 +1,56 @@
+.vdo {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .header {
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aliceblue;
+    border: 1px solid gainsboro;
+    border-radius: 10px 10px 0 0;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  li {
+    float: left;
+    padding: 5px;
+    
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+
+  .active {
+    background-color: #64a6d8;
+    color: white !important;
+  } 
+  
+  li a:hover {
+    background-color: #64a6d8;
+    color: white;
+  }
+  

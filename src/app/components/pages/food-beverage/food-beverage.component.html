@@ -1,0 +1,59 @@
+<div>
+    <h1 class="header" style="margin-bottom: -30px; margin-top: 20px;">Shop & Savor</h1>
+    <div class="vdo">
+        <img
+          width="80%"
+          style="margin-top: 20px;"
+          src="assets/customers.png"
+        />
+      </div>
+      <br />
+      <div>
+        <ul>
+            <li><a [ngClass]="{'active': active_domain === 1}" (click)="onOptionClick(1)">Looping Delights</a></li>
+            <li><a [ngClass]="{'active': active_domain === 2}" (click)="onOptionClick(2)">Fusion+</a></li>
+            <li><a [ngClass]="{'active': active_domain === 3}" (click)="onOptionClick(3)">Wholesale Oasis</a></li>
+            <li><a [ngClass]="{'active': active_domain === 4}" (click)="onOptionClick(4)">Virtual Festivity Box</a></li>
+            <li><a [ngClass]="{'active': active_domain === 5}" (click)="onOptionClick(5)">NourishMeWell</a></li>
+          </ul>
+      </div>
+      <br />
+    <div class="vdo">
+        <img
+          width="90%"
+          src="assets/f1.png"
+          (click)="onFoodItemsSel(1)"
+        />
+      </div>
+      <div class="vdo">
+        <img
+          width="90%"
+          src="assets/f2.png"
+          (click)="onFoodItemsSel(2)"
+        />
+      </div>
+      <div class="vdo">
+        <img
+          width="90%"
+          src="assets/f3.png"
+        />
+      </div>
+      <div class="vdo">
+        <img
+          width="90%"
+          src="assets/f4.png"
+        />
+      </div>
+      <div class="vdo">
+        <img
+          width="90%"
+          src="assets/f5.png"
+        />
+      </div>
+      <div class="vdo">
+        <img
+          width="90%"
+          src="assets/f6.png"
+        />
+      </div>
+</div>

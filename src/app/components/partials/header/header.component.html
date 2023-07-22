@@ -1,0 +1,64 @@
+
+<header>
+  <div class="container">
+    <a routerLink="/" class="logo" >
+      <img src="assets/ncrdc_logo.png" style="height: 45px;
+      margin-right: 5px;
+      margin-left: -15px;"/>
+      <!-- <b style="position: relative; top: 3px; color: gray; font-size: 20px">Digital Commerce</b> -->
+    </a>
+    <img src="assets/location.png" style="height: 55px;
+          margin-top: 2px; margin-left: -550px;" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+    <nav>
+      <ul>
+        <li>
+          <img src="assets/search.png" style="height: 55px;
+          margin-top: 4px;"/>
+        </li>
+        <li>
+          <a routerLink="/login" style="font-size: 20px;"><i class="bi bi-person-fill" style="margin-right: 5px;"></i>Profile</a>
+        </li>
+        <li class="menu-container" *ngIf="false">
+          <a routerLink="/dashboard">Testy Codeiz</a>
+          <div class="menu">
+            <a routerLink="/profile">Profile</a>
+            <a routerLink="/orders">Orders</a>
+            <a>Logout</a>
+          </div>
+        </li>
+        <li>
+          <a routerLink="/cart-page" style="font-size: 20px;">
+            <i class="bi bi-cart-fill"></i>
+            Cart <span>{{cartQuantity}}</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+</header>
+
